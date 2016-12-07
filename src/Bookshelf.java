@@ -29,11 +29,13 @@ public class Bookshelf {
     }
 
     public int getBookAmount() {
-
+        return shelf.size();
     }
 
     public int getTotalPages() {
-
+        for (int i = 0; i < shelf.size(); i++) {
+            shelf.getPages(i);  
+        }
     }
 
     public Author getOldestAuthor() {
