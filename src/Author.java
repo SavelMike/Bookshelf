@@ -7,13 +7,14 @@ public class Author {
     private int Age;
 
     public Author(String n, int a) {
-
+        name = n;
+        Age = a;
     }
 
     public int getAge() {
 
     }
-    
+
     public String getName() {
 
     }

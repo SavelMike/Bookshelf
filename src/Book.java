@@ -3,16 +3,16 @@
  */
 public class Book {
 
-    private String Title;
+    private String title;
     private int pages;
     private String ISBNnum;
-    private String Author;
+    private Author author;
 
-    public Book(String t, int p, String isbn, String a) {
-        Title = t;
+    public Book(String t, int p, String isbn, Author a) {
+        title = t;
         pages = p;
         ISBNnum = isbn;
-        Author = a;
+        author = a;
     }
 
     public String getTitle() {

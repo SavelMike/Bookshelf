@@ -6,8 +6,13 @@ import java.util.ArrayList;
  */
 public class Bookshelf {
 
-    public Bookshelf() {
+    private ArrayList<Book> shelf;
+    private int maxBooks;
 
+
+    public Bookshelf(ArrayList<Book> s, int amnt) {
+        shelf = new ArrayList<Book>();
+        maxBooks = amnt;
     }
 
     public void add(Book b) {
