@@ -8,10 +8,11 @@ public class Book {
     private String ISBNnum;
     private String Author;
 
-    public Book(String t, int p, String isbn) {
+    public Book(String t, int p, String isbn, String a) {
         Title = t;
         pages = p;
         ISBNnum = isbn;
+        Author = a;
     }
 
     public String getTitle() {
@@ -26,7 +27,7 @@ public class Book {
 
     }
 
-    public String getAuthor() {
+    public Author getAuthor() {
 
     }
 }
