@@ -16,15 +16,16 @@ public class Bookshelf {
     }
 
     public void add(Book b) {
-
+        shelf.add(b);
     }
 
     public void remove(int i) {
-
+        shelf.remove(i);
     }
 
     public void moveToBookshelf(int i, Bookshelf anotherShelf) {
-
+        anotherShelf.add(shelf.get(i));
+        shelf.remove(i);
     }
 
     public int getBookAmount() {

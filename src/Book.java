@@ -16,18 +16,18 @@ public class Book {
     }
 
     public String getTitle() {
-
+        return title;
     }
 
     public int getPages() {
-
+        return pages;
     }
 
     public String getISBNnumber() {
-
+        return ISBNnum;
     }
 
     public Author getAuthor() {
-
+        return author;
     }
 }

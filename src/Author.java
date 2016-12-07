@@ -4,18 +4,18 @@
 public class Author {
 
     private String name;
-    private int Age;
+    private int age;
 
     public Author(String n, int a) {
         name = n;
-        Age = a;
+        age = a;
     }
 
     public int getAge() {
-
+        return age;
     }
 
     public String getName() {
-
+        return name;
     }
 }
