@@ -18,28 +18,28 @@ public class Bookshelf {
 
     }
 
-    public void moveToBookshelf(int i, Bookshelf store) {
+    public void moveToBookshelf(int i, Bookshelf anotherShelf) {
 
     }
 
-    public int getNumber() {
-        return number;
+    public int getBookAmount() {
+
     }
 
-    public int getTotal() {
-        return total;
+    public int getTotalPages() {
+
     }
 
-    public String getoldestAuthor() {
-        return oldestAuthor;
+    public Author getOldestAuthor() {
+
     }
 
-    public ArrayList getListOfBooks() {
-        return ListOfBooks;
+    public ArrayList<Book> getListOfDuplicates() {
+
     }
 
-    public ArrayList getAuthorBooks() {
-        return AuthorBooks;
+    public ArrayList<Book> getAuthorBooks(Author a) {
+
     }
 
 }
